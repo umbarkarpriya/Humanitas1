@@ -1,0 +1,75 @@
+.page-banner {
+    position: relative;
+    margin-top: 80px;
+    height: 235px;
+    padding-top: 91px;
+}
+.page-banner .section-name {
+    position: relative;
+    z-index: 10;
+}
+.section-name {
+    text-align: center;
+}
+.page-banner .section-name h2, .page-banner .section-name h5 {
+    color: #ffffff;
+}
+.section-name h2 {
+    text-transform: uppercase;
+    color: #383838;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+.section-name .short-text {
+    display: inline-block;
+    position: relative;
+}
+.section-name .short-text .sep.l {
+    left: -25px;
+}
+.section-name .short-text .sep {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 22px;
+    background: #ec4050;
+    z-index: 1;
+}
+.page-banner .section-name h5 {
+    color: #ffffff;
+}
+.section-name h5 {
+    display: inline-block;
+    position: relative;
+    z-index: 8888;
+    padding: 0 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+h5 {
+    font-size: 14px;
+    line-height: 14px;
+}
+.page-banner .section-name h5 i {
+    margin: 0 6px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.parallax-window {
+    min-height: 200px;
+    background: transparent;
+  
+  }
